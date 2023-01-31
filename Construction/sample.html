@@ -17,12 +17,26 @@
             <span>Get a feel of our state-of-the-art library by browsing around this page. Feel free to mess around!</span>
         </div>
         <div class="right">
-            <button class="macx-button">Here's a button!</button>
+            <button class="macx-button" onclick="location.href = '#sect1'">Explore!</button>
+        </div>
+    </div>
+    <div class="cont" id="sect1">
+        <div class="left">
+            <h1>Simple.</h1>
+            <span>MacX is a simple, lightweight library that provides you with the tools you need.</span>
+        </div>
+        <div class="right">
+            <h1>Customizable.</h1>
+            <span>We provide you with powerful tools and empower you with unlimited styling options.</span>
         </div>
     </div>
 </body>
 <style>
     @import url(./free.css);
+
+    html {
+        scroll-behavior: smooth;
+    }
 
     * {
         font-family: 'MacX';
@@ -50,7 +64,7 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        height: 500px;
+        padding: 100px 0;
     }
 
     .left,
@@ -60,10 +74,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 100px;
-    }
-
-    .left {
-        width: 30%;
     }
 </style>
 

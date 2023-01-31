@@ -3,7 +3,7 @@
     src: url(https://raw.githubusercontent.com/DeadstarIII/MacX/main/Construction/MacX.ttf);
 }
 
-.macx-button {
+.macx-button { /* TODO: redesign */
     cursor: pointer;
     display: inline-block;
     text-align: center;
