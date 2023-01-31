@@ -1,95 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>MacX sample page</title>
-</head>
+  </head>
 
-<body>
-    <div class="head"
-        style="background-image: url(https://github.com/DeadstarIII/MacX/raw/main/OfficialBanner/MacXBanner.png);">
+  <body>
+    <div
+      class="head"
+      style="
+        background-image: url(https://github.com/DeadstarIII/MacX/raw/main/OfficialBanner/MacXBanner.png);
+      "></div>
+    <div class="cont">
+      <div class="left">
+        <h1>Demo page</h1>
+        <span
+          >Get a feel of our state-of-the-art library by browsing around this
+          page. Feel free to mess around!</span
+        >
+      </div>
+      <div class="right flex-center">
+        <button
+          class="macx-button"
+          onclick="location.href = '#sect1'">
+          Explore!
+        </button>
+      </div>
+    </div>
+    <div
+      class="cont"
+      id="sect1">
+      <div
+        class="left"
+        style="width: 50%">
+        <h1>Simple.</h1>
+        <span
+          >MacX is a simple, lightweight library that provides you with the
+          tools you need.</span
+        >
+      </div>
+      <div
+        class="right"
+        style="width: 50%">
+        <h1>Customizable.</h1>
+        <span
+          >We provide you with powerful tools and empower you with unlimited
+          styling options, whilst ensuring the best user experience.</span
+        >
+      </div>
     </div>
     <div class="cont">
-        <div class="left">
-            <h1>Demo page</h1>
-            <span>Get a feel of our state-of-the-art library by browsing around this page. Feel free to mess around!</span>
-        </div>
-        <div class="right flex-center">
-            <button class="macx-button" onclick="location.href = '#sect1'">Explore!</button>
-        </div>
+      <div
+        class="left"
+        style="width: 50%">
+        <h1>Unique.</h1>
+        <span
+          >MacX is made by professionals, and is the one of the most competitive
+          CSS libraries in the MacOS category.</span
+        >
+      </div>
+      <div
+        class="right"
+        style="width: 50%">
+        <h1>Free.</h1>
+        <span
+          >MacX is available completely for free, and it is open-source. There
+          is also a premium option, which further enhances your web development
+          experience.</span
+        >
+      </div>
     </div>
-    <div class="cont" id="sect1">
-        <div class="left" style="width: 50%;">
-            <h1>Simple.</h1>
-            <span>MacX is a simple, lightweight library that provides you with the tools you need.</span>
-        </div>
-        <div class="right" style="width: 50%;">
-            <h1>Customizable.</h1>
-            <span>We provide you with powerful tools and empower you with unlimited styling options, whilst ensuring the best user experience.</span>
-        </div>
-    </div>
-    <div class="cont">
-        <div class="left" style="width: 50%;">
-            <h1>Unique.</h1>
-            <span>MacX is made by professionals, and is the one of the most competitive CSS libraries in the MacOS category.</span>
-        </div>
-        <div class="right" style="width: 50%;">
-            <h1>Free.</h1>
-            <span>MacX is available completely for free, and it is open-source. There is also a premium option, which further enhances your web development experience.</span>
-        </div>
-    </div>
-</body>
-<style>
+  </body>
+  <style>
     @import url(./free.css);
 
     html {
-        scroll-behavior: smooth;
+      scroll-behavior: smooth;
     }
 
     * {
-        font-family: 'MacX';
+      font-family: "MacX";
     }
 
     .head {
-        width: 100%;
-        height: 300px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     .title {
-        text-align: center;
+      text-align: center;
     }
 
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-        background: #f5f5f5;
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      background: #f5f5f5;
     }
 
     .cont {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        height: 100px;
-        padding: 70px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      height: 100px;
+      padding: 70px 0;
     }
 
     .left,
     .right {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 100px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 100px;
     }
-</style>
-
+  </style>
 </html>
