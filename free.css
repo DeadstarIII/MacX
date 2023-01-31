@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'MacX';
-    src: url(https://raw.githubusercontent.com/DeadstarIII/MacX/main/MacX.ttf);
-}
-
-.macx-button {
-    font-size: 12px;
-}
