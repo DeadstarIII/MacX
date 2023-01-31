@@ -6,25 +6,16 @@
 .macx-button { /* TODO: redesign */
     cursor: pointer;
     display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    font-size: 17px;
-    line-height: 1.17648;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    min-width: 28px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 18px;
-    background: #0071e3;
-    color: #fff;
+	font-family: 'MacX', sans-serif;
+	padding: 0.2em 1em;
 	border: none;
+	border-radius: 0.3em;
+	background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef);
+	color: #fff;
+	font-size: 20px;
 }
 
 .macx-button:focus {
-	box-shadow: 0 0 0 4px rgba(0,125,250,0.6);
+	box-shadow: 0 0 0 0.2em rgba(0,125,250,0.6);
     outline: none;
 }
