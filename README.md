@@ -15,5 +15,4 @@ Features [Under Construction]
 <a target="_blank" href="https://nuxtjs.org/">Nuxt.JS</a> and 
 <a target="_blank" href="https://svelte.dev/"> Svelte.JS</a>
 and HTML ofcourse!</li>
-
 </ol>
