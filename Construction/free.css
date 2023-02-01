@@ -1,21 +1,33 @@
 @font-face {
-    font-family: "MacX";
-    src: url(https://raw.githubusercontent.com/DeadstarIII/MacX/main/Construction/MacX.ttf);
+  font-family: "MacX";
+  src: url(https://raw.githubusercontent.com/DeadstarIII/MacX/main/Construction/MacX.ttf);
 }
 
-.macx-button { /* TODO: redesign */
-    cursor: pointer;
-    display: inline-block;
-	font-family: 'MacX', sans-serif;
-	padding: 0.2em 1em;
-	border: none;
-	border-radius: 0.3em;
-	background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef);
-	color: #fff;
-	font-size: 20px;
+.macx-button {
+  /* TODO: redesign */
+  cursor: pointer;
+  display: inline-block;
+  font-family: "MacX", sans-serif;
+  padding: 0.5vw;
+  border: none;
+  /* border-radius: 25%; */
+  /* background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef); */
+  background-color: #036dff;
+  color: #ffffff;
+  font-size: 20px;
+  height: 2.5vw;
+  width: 6.54vw;
+  border-radius: 1vw;
+  font-style: normal;
+  font-weight: 800;
 }
 
-.macx-button:focus {
-	box-shadow: 0 0 0 0.2em rgba(0,125,250,0.6);
-    outline: none;
+html {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
+
+/* .macx-button:focus {
+  box-shadow: 0 0 0 0.2em rgba(0, 125, 250, 0.6);
+  outline: none;
+} */
