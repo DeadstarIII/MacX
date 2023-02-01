@@ -1,5 +1,4 @@
 <img src="./OfficialBanner/MacXBanner.png"/>
-<link rel="icon" href="./assets/apple-icon.png">
 
 MacX
 A css library, inspired by OSX.
