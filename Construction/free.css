@@ -25,9 +25,18 @@
 html {
   font-smooth: never;
   -webkit-font-smoothing: none;
+  background-color: #e5e5e5;
 }
 
-/* .macx-button:focus {
-  box-shadow: 0 0 0 0.2em rgba(0, 125, 250, 0.6);
+.macx-button:focus {
+  /* box-shadow: 0 0 0 0.2em rgba(0, 125, 250, 0.6); */
   outline: none;
-} */
+}
+
+.macx-paragraph {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.macx-heading {
+  color: #000000;
+}
