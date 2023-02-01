@@ -12,7 +12,8 @@
   border: none;
   /* border-radius: 25%; */
   /* background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef); */
-  background-color: #036dff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
   color: #ffffff;
   font-size: 20px;
   height: 2.5vw;
@@ -31,6 +32,11 @@ html {
 .macx-button:focus {
   /* box-shadow: 0 0 0 0.2em rgba(0, 125, 250, 0.6); */
   outline: none;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  border: 3.5px solid rgba(58, 108, 217, 0.5);
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
+  border-radius: 1vw;
+  gap: 10px;
 }
 
 .macx-paragraph {
