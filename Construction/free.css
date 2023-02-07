@@ -3,15 +3,16 @@
   src: url(https://raw.githubusercontent.com/DeadstarIII/MacX/main/Construction/MacX.ttf);
 }
 
-.macx-button {
-  /* TODO: redesign */
+@import url(./BUG.css);
+
+/* .macx-button {
   cursor: pointer;
   display: inline-block;
   font-family: "MacX", sans-serif;
   padding: 0.5vw;
   border: none;
-  /* border-radius: 25%; */
-  /* background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef); */
+   border-radius: 25%;
+  background: linear-gradient(to top, #4779ee, #3b87f6, #3b87f6, #62a3f5, #90bbef); 
   background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
   box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
   color: #ffffff;
@@ -21,15 +22,41 @@
   border-radius: 0.6vw;
   font-style: normal;
   font-weight: 800;
+} */
+
+.macx-button {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 14px;
+  gap: 10px;
+
+  width: 84px;
+  height: 25px;
+
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #3d3d3d;
 }
 
 html {
   font-smooth: never;
   -webkit-font-smoothing: none;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
+  background-color: #d2d2d2;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-.macx-button:focus {
+/* .macx-button:focus {
   outline: none;
   background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
   border: 3px solid rgba(58, 108, 217, 0.5);
@@ -37,6 +64,27 @@ html {
   line-height: 10px;
   border-radius: 0.6vw;
   gap: 10px;
+} */
+
+.macx-button:focus {
+  /* width: 84px;
+  height: 25px; */
+  padding: 4px 14px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  /* border: 0.5px solid rgba(0, 0, 0, 0.12); */
+  /* box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1); */
+  border-radius: 6px;
+  width: 84px;
+  height: 25px;
+
+  border: 3.5px solid rgba(58, 108, 217, 0.5);
+  border-radius: 6px;
 }
 
 .macx-paragraph {
@@ -49,10 +97,9 @@ html {
 
 ::-webkit-scrollbar {
   width: 8px;
-  height:6px;
+  height: 6px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background-color: transparent;
   border-radius: 0.75rem;
@@ -60,7 +107,6 @@ html {
   transition-duration: 0.4s;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background-color: #888;
   border-radius: 0.75rem;
@@ -68,7 +114,6 @@ html {
   transition-duration: 0.4s;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background-color: #666;
 }
