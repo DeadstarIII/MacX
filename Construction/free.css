@@ -24,7 +24,7 @@
   font-weight: 800;
 } */
 
-.macx-button {
+/* .macx-button {
   box-sizing: border-box;
 
   display: flex;
@@ -45,7 +45,7 @@
   order: 0;
   flex-grow: 0;
   color: #3d3d3d;
-}
+} */
 
 html {
   font-smooth: never;
@@ -67,9 +67,9 @@ html {
   gap: 10px;
 } */
 
-.macx-button:focus {
-  /* width: 84px;
-  height: 25px; */
+/* .macx-button:focus {
+   width: 84px;
+  height: 25px; 
   padding: 4px 14px;
   box-sizing: border-box;
 
@@ -78,15 +78,15 @@ html {
   align-items: center;
   gap: 10px;
   background: #ffffff;
-  /* border: 0.5px solid rgba(0, 0, 0, 0.12); */
-  /* box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1); */
+   border: 0.5px solid rgba(0, 0, 0, 0.12); 
+   box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1); 
   border-radius: 6px;
   width: 84px;
   height: 25px;
 
   border: 3.5px solid rgba(58, 108, 217, 0.5);
   border-radius: 6px;
-}
+} */
 
 .macx-paragraph {
   color: rgba(0, 0, 0, 0.38);

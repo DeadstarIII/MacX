@@ -3,3 +3,4 @@
 /node_modules/
 /sanityCDN/node_modules
 /Construction/sanity.html
+.gitignore
